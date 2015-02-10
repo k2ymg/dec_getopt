@@ -1,0 +1,3 @@
+
+test_getopt: main.cpp ../dec_getopt.h
+	cc --std=c++11 -Wall -lc++ main.cpp -o test_getopt
